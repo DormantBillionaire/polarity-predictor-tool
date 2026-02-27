@@ -1,13 +1,68 @@
-.body{
-    background-color: white;
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 
 }
+
+main {
+    flex: 1; /* pushes footer down */
+}
+
 .bond-polarity-title{
-    font-size: small;
-    text-align: center;
+    display: block;          /* header is inline by default, this fixes that */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-align: center;      /* now works since width is 100% */
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+
 }
 
+.project-overview{
+    text-align: center;
 
-.footer{
+
+}
+
+.gratitude-para{
     
+
+}
+
+.game-overview{
+   
+
+}
+
+.question-title{
+
+}
+
+.question-words{
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
 }
