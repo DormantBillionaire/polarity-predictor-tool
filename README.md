@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DormantBillionaire/polarity-predictor-tool">
-    <img src="molecularImages\polarityPredTool_Titlev2.png" alt="Logo" width="800" height="300">
+    <img src="molecularImages\newTitlev3.png" alt="Logo" width="800" height="300">
   </a>
 
 <h3 align="center">Polarity Predictor Tool (Quiz)</h3>
