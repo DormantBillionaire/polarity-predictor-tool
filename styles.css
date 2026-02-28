@@ -28,7 +28,7 @@ main {
 }
 
 .para{
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #game-overview, #gratitude-para, #long-congrats, #final-score, #answer-breakdown{
@@ -124,6 +124,10 @@ form {
     font-weight: 600;
     font-size: large;
 
+}
+
+#final-score, #answer-breakdown {
+  font-size: large;
 }
 
 .btn{

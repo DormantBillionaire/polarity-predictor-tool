@@ -13,7 +13,7 @@ for (const [question, correct] of Object.entries(answers)){
     const userAnswer = sessionStorage.getItem(question);
     if(userAnswer === correct){
         score++
-        breakdown+= `<p>${question}: you answered ${userAnswer}</p>`;
+        breakdown+= `<p>${question} was correct!</p>`;
     }
     else {
         breakdown += `<p>${question}: you answered ${userAnswer}, the correct answer was ${correct}</p>`;
