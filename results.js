@@ -1,9 +1,9 @@
 const answers = {
-    "question-01": "H20",
-    "question-02": "NH₃-a",
-    "question-03": "0",
-    "question-04": "F",
-    "question-05": "SO₂-c",
+    "question-01": "B",
+    "question-02": "A",
+    "question-03": "B",
+    "question-04": "A",
+    "question-05": "C",
 };
 
 let score = 0;
@@ -16,7 +16,7 @@ for (const [question, correct] of Object.entries(answers)){
         breakdown+= `<p>${question}: you answered ${userAnswer}</p>`;
     }
     else {
-        breakdown += `<p>${question}: ❌ Incorrect — you answered ${userAnswer}, correct answer was ${correct}</p>`;
+        breakdown += `<p>${question}: you answered ${userAnswer}, the correct answer was ${correct}</p>`;
     }
 }
 
