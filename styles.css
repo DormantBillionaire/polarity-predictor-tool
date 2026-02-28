@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-color: white;
 
 }
 
@@ -33,7 +34,7 @@ main {
 #game-overview, #gratitude-para, #long-congrats{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 600px;
+    font-weight: 600;
     padding-left: 200px;
     padding-right: 200px;
 
@@ -44,28 +45,68 @@ main {
 
 }
 
-#question-words{
+#question-words {
     text-align: left;
-    padding-left: 100px;
-
+    padding-left: 100px;  /* match form padding or switch to % */
 }
-/* QUESTION 01*/
-#q1-option-a, #q1-option-b, #q1-option-c, #q1-option-d{
+
+form {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    max-width: fit-content;
-
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 100px;
+    margin-bottom: 30px;
 }
 
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-#molecule-boxes{
-    
+.option img {
+    width: 100%;
+    max-width: 180px;
+    height: 160px;
+    object-fit: contain;  /* preserves aspect ratio without cropping */
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+/* OPTION HOVERING SPECIFICS*/
+/* hide the raw radio button */
+.option input[type="radio"] {
+    display: none;
+}
+
+/* style the label as a card */
+.option label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.option label:hover {
+    border-color: #888;
+    background-color: #f5f5f5;
+}
+
+/* highlight selected card */
+.option input[type="radio"]:checked + label {
+    border-color: #4a90d9;
+    background-color: #eaf3ff;
 }
 
 .btn-container{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 200px;
     align-items: center;
 }
 
@@ -75,13 +116,13 @@ main {
 
 #next-question-button{
     text-align: center;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: large;
 }
+
 .btn{
     text-align: center;
     padding: 10px 20px;
