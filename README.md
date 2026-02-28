@@ -31,18 +31,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="molecularImages\polarityPredTool_Title.png" alt="Logo" width="100" height="100">
+    <img src="molecularImages\polarityPredTool_Titlev2.png" alt="Logo" width="600" height="300">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Polarity Predictor Tool (Quiz)</h3>
 
   <p align="center">
-    project_description
+    This project was a precursor for a soon-to-be CC Me Planner for my local community college and an eventual physics platform. The primary focus for this project was to get comfortble with multiple interconnected files and handling user input, questions and answers.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DormantBillionaire/polarity-predictor-tool"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <!-- Create a basic video demo, to practice presenting projects-->
+    <a href="https://github.com/DormantBillionaire/polarity-predictor-tool">View Demo</a>
     &middot;
     <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
