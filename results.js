@@ -1,9 +1,9 @@
 const answers = {
     "question-01": "H20",
-    "question-02": "Because of the trigonal pyramidal geometry, NH₃ is asymmetrical and polar.",
-    "question-03": "Zero, because of the molecules linear arrangement.",
-    "question-04": "F, Flourine",
-    "question-05": "SO₂ is polar because of it's molecular geometry and net dipole that is > 0",
+    "question-02": "NH₃-a",
+    "question-03": "0",
+    "question-04": "F",
+    "question-05": "SO₂-c",
 };
 
 let score = 0;
@@ -14,6 +14,9 @@ for (const [question, correct] of Object.entries(answers)){
     if(userAnswer === correct){
         score++
         breakdown+= `<p>${question}: you answered ${userAnswer}</p>`;
+    }
+    else {
+        breakdown += `<p>${question}: ❌ Incorrect — you answered ${userAnswer}, correct answer was ${correct}</p>`;
     }
 }
 
