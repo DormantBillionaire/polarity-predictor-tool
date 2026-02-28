@@ -9,9 +9,6 @@
 <main>
     <section class="completed-quiz">
         <h3 class="title">Thank you for Playing!</h3>
-        <p id="long-congrats" class="para">
-            Congratualations, you completed the bond polarity tool quiz! below you will find your score. Click "Back To Home" or next question to restart from problem 01
-        </p>
         <p id ="gratitude-para" class="para"> 
             Thank you for participating in my bond polarity tool, this is my first "full stack" type of project where I'm connecting 
             multiple types of programming languages, their respective files, as well as getting a bit outside of my comfort zone with programming 
@@ -21,14 +18,24 @@
 
     <section id="results">
         <h2 id="question-title">Your Results</h2>
-        <p class="para" id="final-score">Your final score isss</p>
-        <p class="para" id="answer-breakdown">somethign something something </p>
+        <p class="para" id="final-score"></p>
+        <p class="para" id="answer-breakdown"></p>
     </section>
+
+    <hr id="separator-hr">
+
+    <section class="completed-quiz">
+        <p id="long-congrats" class="para">
+            Click "Back To Home" or next question to restart from problem 01
+        </p>
+    </section>
+
     <div class="btn-container">
         <a target="_self" href="question01.html">
             <button id="restart-button" class="btn">Restart Quiz</button>
         </a>
     </div>
+
 
     <div class="btn-container">
         <button id="home-button" class="btn">Return Home</button>
@@ -37,7 +44,9 @@
 </main>
 
 <footer>
+    <hr>
     <p>&copy; 2025 Aspen. All rights reserved.</p>
 </footer>
+
 </body>
 </html>

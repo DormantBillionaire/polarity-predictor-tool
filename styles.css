@@ -136,11 +136,21 @@ form {
     font-size: large;
     
 }
+#separator-hr{
+    width: 70%;
+    color: #888;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid black;
+    margin: 30px auto;
+}
+
 
 footer{
     background-color: white;
     color: black;
     text-align: center;
-    padding: 20px;
     font-weight: 600;
 }
