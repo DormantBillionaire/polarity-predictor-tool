@@ -49,6 +49,15 @@ main {
     padding-left: 100px;
 
 }
+/* QUESTION 01*/
+#q1-option-a, #q1-option-b, #q1-option-c, #q1-option-d{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: fit-content;
+
+}
+
+
 #molecule-boxes{
     
 }
