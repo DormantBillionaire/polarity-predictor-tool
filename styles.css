@@ -31,7 +31,7 @@ main {
     font-weight: 600;
 }
 
-#game-overview, #gratitude-para, #long-congrats{
+#game-overview, #gratitude-para, #long-congrats, #final-score, #answer-breakdown{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;

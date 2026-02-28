@@ -7,12 +7,24 @@ const answers = {
 };
 
 let score = 0;
+let breakdown = "";
 
-for (const [question, correct] of Object.enteries(answers)){
+for (const [question, correct] of Object.entries(answers)){
     const userAnswer = sessionStorage.getItem(question);
     if(userAnswer === correct){
-        score++;
+        score++
+        breakdown+= `<p>${question}: you answered ${userAnswer}</p>`;
     }
 }
 
-document.getElementById("final-score").textContext = 'Your final score is ${score} / 5';
+// prints score to the page
+document.getElementById("final-score").innerHTML = `You scored ${score} out of 5`;
+
+// prints question by question breakdown
+document.getElementById("answer-breakdown").innerHTML = breakdown;
+
+// clears sessionStorage so quiz is fresh on restart
+document.getElementById("restart-button").addEventListener("click", () => {
+    sessionStorage.clear();
+    window.location.href = "question01.html";
+});
