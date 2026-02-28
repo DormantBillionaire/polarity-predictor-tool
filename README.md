@@ -84,7 +84,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](molecularImages\productScreenschot.png)`
+<div align="left">
+  <a href="https://github.com/DormantBillionaire/polarity-predictor-tool">
+    <img src="molecularImages\productScreenschot.png" alt="Logo" width="600" height="300">
+  </a>
+</div>
 
 
 ### Built With
