@@ -88,7 +88,7 @@
 </div>
 
 
-### Built With
+## Built With
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
@@ -96,27 +96,13 @@
 * [![YAML][YAML]][YAML-url]
 * [![Git][GIT]][GIT-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<br>
 
 <!-- GETTING STARTED -->
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+# Installation - How to Take The Quiz
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-## Method 01: Via Text Editor 
+## Method 01: Text Editor Users
 1. Navigate into your text editor of choice 
 
 2. Clone the repo
@@ -127,10 +113,10 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    main.html
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Method 02: Via Terminal
+
+## Method 02: Terminal Users
 1. Clone the repo
 ```sh
    git clone https://github.com/DormantBillionaire/polarity-predictor-tool.git
@@ -152,13 +138,14 @@ This is an example of how to list things you need to use the software and how to
 ```
 
 
+<br>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+# Usage
 
 The main purpose for this program is to assess basic knowledge of bond polarity in the form of 5 MCQ. There is no test bank, therefore the questions will repeat in the same order no matter how many times the user re-executes the quiz, this is simple by design. 
 
-_For a visual example, please refer to the [Live Demo](https://example.com)_
+_For a visual example, please refer to the [Live Demo (Coming Soon)](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,9 +175,7 @@ Please fork the repo and create a pull request. You can also simply open an issu
 
 Distributed under the project_license. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<br>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
