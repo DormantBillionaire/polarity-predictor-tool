@@ -55,9 +55,8 @@ form {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 0 100px;
-    margin-bottom: 50px;
-    
+    max-width: 800px;  /* adjust this value */
+    margin: 0 auto;    /* centers the form */
 }
 
 .option {
@@ -85,10 +84,13 @@ form {
 
 /* style the label as a card */
 .option label {
+    width: 200px;
+    min-height: 200px;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
     padding: 12px;
     border: 2px solid #b2b2b2;
     border-radius: 10px;
