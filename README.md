@@ -97,6 +97,7 @@
 * [![CSS][CSS]][CSS-url]
 * [![JavaScript][JS]][JS-url]
 * [![YAML][YAML]][YAML-url]
+* [![Git][GIT]][GIT-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -269,3 +270,6 @@ There was no additional assistance outside of my brain conjuring up this thought
 
 [YAML]: https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff
 [YAML-url]: https://github.com/DormantBillionaire/polarity-predictor-tool/blob/main/ISSUE_TEMPLATE/bug_report.yml
+
+[GIT]: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff
+[GIT-url]: https://github.com/DormantBillionaire/polarity-predictor-tool
