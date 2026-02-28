@@ -1,0 +1,19 @@
+name: Request a feature
+description: Suggest an idea/ concept implementation for this project! 
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      placeholder: A clear description of the problem.
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the feature you'd like to see (Please be as detailed as possible)
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Are there any current programs/sites that has this feature already? 

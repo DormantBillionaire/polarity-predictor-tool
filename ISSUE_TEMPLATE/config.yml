@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/DormantBillionaire/polarity-predictor-tool/security/advisories/new
+    about: If you find anything out of the ordinary, or feel you're data or page is being compromised, please stop and submit a ticket as soon as possible.
+  - name: Non-API docs issues
+    url: https://docs.yoursite.com/issues
+    about: Open an issue about documentation in the guides and additional resources sections
