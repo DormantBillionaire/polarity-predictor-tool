@@ -118,35 +118,49 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+## Method 01: Via Text Editor 
+1. Navigate into your text editor of choice 
+
 2. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+3. Begin in the following file and right-click and select the option to "Open with live server"
    ```sh
-   npm install
+   main.html
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Method 02: Via Terminal
+1. Clone the repo
+```sh
+   git clone https://github.com/DormantBillionaire/polarity-predictor-tool.git
+```
+2. Navigate into the project folder
+```sh
+   cd polarity-predictor-tool
+```
+3. Open `main.html` directly in your default browser
+```sh
+   # Mac
+   open main.html
+
+   # Windows
+   start main.html
+
+   # Linux
+   xdg-open main.html
+```
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The main purpose for this program is to assess basic knowledge of bond polarity in the form of 5 MCQ. There is no test bank, therefore the questions will repeat in the same order no matter how many times the user re-executes the quiz, this is simple by design. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For a visual example, please refer to the [Live Demo](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,15 +183,15 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the world go round'. If you are an individual who can program a better version/ provide an additional feature that you cannot express in words in the features sectio, then please do so by the following:
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -207,9 +221,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+There was no additional assistance outside of my brain conjuring up this thought haha and then struggling to put it into the works.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
