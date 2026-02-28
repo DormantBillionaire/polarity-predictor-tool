@@ -167,19 +167,6 @@ _For a visual example, please refer to the [Live Demo](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -208,21 +195,10 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-There was no additional assistance outside of my brain conjuring up this thought haha and then struggling to put it into the works.
+There was no additional assistance outside of my brain (and Claude for clarity of code) conjuring up this thought haha and then struggling to put it into the works.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,15 +206,6 @@ There was no additional assistance outside of my brain conjuring up this thought
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/DormantBillionaire/polarity-predictor-tool.svg?style=for-the-badge
-[contributors-url]: https://github.com/DormantBillionaire/polarity-predictor-tool/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/DormantBillionaire/polarity-predictor-tool.svg?style=for-the-badge
-[forks-url]: https://github.com/DormantBillionaire/polarity-predictor-tool/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/DormantBillionaire/polarity-predictor-tool.svg?style=for-the-badge
-[stars-url]: https://github.com/DormantBillionaire/polarity-predictor-tool/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/DormantBillionaire/polarity-predictor-tool.svg?style=for-the-badge
 [issues-url]: https://github.com/DormantBillionaire/polarity-predictor-tool/issues
@@ -252,13 +219,6 @@ There was no additional assistance outside of my brain conjuring up this thought
 [product-screenshot]: molecularImages\productScreenschot.png
 
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-
 [HTML]:https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white
 [HTML-url]: https://github.com/DormantBillionaire/polarity-predictor-tool/blob/main/main.html
 
