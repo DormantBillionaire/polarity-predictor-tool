@@ -8,6 +8,8 @@ body{
 
 main {
     flex: 1; /* pushes footer down */
+    padding-top: 400px;
+    
 }
 
 .bond-polarity-title{
@@ -17,32 +19,44 @@ main {
     text-align: center;      /* now works since width is 100% */
     padding: 10px 20px;
     border-radius: 5px;
+
     
 
 }
 
 .project-overview{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+
+}
+
+.para{
+    font-weight: 600;
+}
+
+#game-overview, #gratitude-para, #long-congrats{
     text-align: center;
-
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600px;
+    padding-left: 200px;
+    padding-right: 200px;
 
 }
 
-.gratitude-para{
+#question-title{
+    text-align: center;
+    padding-top: -200px;
+
+}
+
+#question-words{
+    text-align: left;
+    padding-top: -200px;
+    padding-left: 100px;
+
+}
+#molecule-boxes{
     
-
-}
-
-.game-overview{
-   
-
-}
-
-.question-title{
-
-}
-
-.question-words{
-
 }
 
 .btn-container{
@@ -52,11 +66,27 @@ main {
     align-items: center;
 }
 
+#restart-button, #home-button{
+    
+}
+
+#next-question-button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+}
 .btn{
     text-align: center;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
     
 }
 
@@ -65,4 +95,5 @@ footer{
     color: black;
     text-align: center;
     padding: 20px;
+    font-weight: 600;
 }
